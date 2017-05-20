@@ -3,23 +3,25 @@
   "version": "1.0.0",
   "description": "simple shop template",
   "repository": {
-    "url": "git+https://github.com/mkovachev/myshop.git"
+    "url": "https://github.com/mkovachev/myshop.git"
   },
   "author": "Martin Kovachev",
   "license": "MIT",
   "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
     "bootstrap": "*",
-    "firebase": "*",
+    "express": "*",
     "handlebars": "*",
-    "http-server": "*",
     "jquery": "*",
+    "sammy": "*",
+    "systemjs": "*",
+    "toastr": "*"
+  },
+  "devDependencies": {
     "chai": "*",
     "mocha": "*",
-    "sammy": "*",
     "sinon": "*",
-    "sinon-chai": "*",
-    "systemjs": "*",
-    "systemjs-plugin-babel": "*",
-    "toastr": "*"
+    "sinon-chai": "*"
   }
 }
